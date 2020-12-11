@@ -1,8 +1,7 @@
 {
-    "compilerOptions": {
-      "target": "ES2020",
-      "experimentalDecorators": true,
-      "emitDecoratorMetadata": true,
-      "lib": ["es5", "es6", "dom"],
-    }
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "lib": ["es5", "es6", "dom"],
   }
+}

@@ -1,4 +1,8 @@
 import { Reflect } from './Reflect.ts';
-import { Service } from './service.ts';
+import { Type } from './decorator.ts';
 
-console.log(Reflect.getMetadata('design:paramtypes', Service))
+export class MyStaticClass {
+    static myInjectable(target: Type<any>) {
+        console.log(Reflect.getMetadata('design:paramtypes', target))
+    }
+}
